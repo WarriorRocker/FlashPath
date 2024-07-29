@@ -37,5 +37,19 @@ Using a PC with a floppy drive and hard drive, optionally a CD-ROM, install a sl
 5. Boot the PC using the Bootdisk again choosing the install option.
 6. Choose again to copy minimal files and run DOS from the Z: drive.
 7. Insert the FlashPath adapter and run "savezip" to create a ZIP file on the Smart Media card.
+   - This process will take about 10 minutes or longer depending on the installation size.
+8. Remove the hard drive if installed and Windows CD-ROM if inserted.
+9. Insert the bootdisk, restart the PC and choose the run option.
+10. Insert the FlashPath adapter when prompted and expand the ZIP file.
+    - This process will take about 10 minutes or longer depending on the installation size.
+11. Remove the FlashPath adapter and start Windows by running "win".
+    - Complete the Windows first time setup, the floppy drive may be accessed repeatedly.
+    - Do not click OK to restart, if you do start from step #9.
+12. Press Ctrl+Shift+Escape to open the task manager.
+13. Go to File -> Run Application -> explorer.exe -> Click OK
+14. Go to Start -> Shutdown -> Restart in MS-DOS mode
+15. Insert the FlashPath adapter and run "savezip" to create a ZIP file on the Smart Media card.
+16. Type "exit" or "win" to start Windows.
+17. Make any changes in Windows and repeat from step #14 to save changes to the ZIP.
 
 ## Common Problems
