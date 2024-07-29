@@ -53,3 +53,6 @@ Using a PC with a floppy drive and hard drive, optionally a CD-ROM, install a sl
 17. Make any changes in Windows and repeat from step #14 to save changes to the ZIP.
 
 ## Common Problems
+
+**Error loading gdi.exe. You must reinstall Windows.**  
+Most likely the Z:\WINDOWS\FONTS directory is missing or empty.
