@@ -1,7 +1,7 @@
 # FlashPath Bootdisk
 For MS-DOS 6.22, Windows 3.11, Windows 95  
   
-Boot a PC with no hard drive or cd-rom to Windows 95 or lower with only a floppy disk drive and FlashPath adapter.
+Boot a PC with no hard drive or CD-ROM to Windows 95 or lower with only a floppy disk drive and FlashPath adapter.
 
 ## How it works
 1. The PC is booted from an actual floppy disk to a compatible version of DOS for the targeted version of Windows. 
@@ -14,6 +14,28 @@ Boot a PC with no hard drive or cd-rom to Windows 95 or lower with only a floppy
 ## Boot Disks
 There are two disk images provided, one for MS-DOS 6.22 and Windows 3.11, and the other for Windows 95. This is due to MS-DOS 6.22 being best for Windows 3.11 and Windows 95 will only start from DOS 7.0 or later. These images were created using WinImage 9.00 and the contents are provided in this repository for reference.
 
-## Installation
+## Installing Windows
+Using a PC with a floppy drive and hard drive, optionally a CD-ROM, install a slim version of Windows and obtain a ZIP file for booting entirely from the floppy drive.
+
+**Requirements**
+- A hard drive with a partition compatible with MS-DOS (no larger than 2GB) as Windows will not install to a RAM drive.
+- Windows installation media, either copied to the hard drive or burned to a CD-ROM, such as [Windows 95 RTM](https://winworldpc.com/product/windows-95/rtm).
+- FlashPath adapter with 16MB (32MB recommended) Smart Media card.
+- Bootdisk image written to floppy disk.
+
+**Installation**
+1. Boot the PC using the Bootdisk choosing the install option.
+   - The hard drive will be mapped to drive Z: and the CD-ROM mapped to drive R:.
+   - Ensure the hard drive is accessible as Z:, "fdisk" and "format" may be necessary.
+3. Choose to copy minimal files and run DOS from the Z: drive.
+4. Type "winsetup" to launch the Windows setup from the CD-ROM, or start manually from the Z: drive.
+   - Click OK to accept making changes to config.sys, no changes will actually be made.
+   - Confirm the installation path as Z:\WINDOWS.
+   - Choose Custom install and select a minimum amount of installed components.
+   - Select No for creating a startup disk.
+   - Finish and allow the PC to restart, do not remove the bootdisk.
+5. Boot the PC using the Bootdisk again choosing the install option.
+6. Choose again to copy minimal files and run DOS from the Z: drive.
+7. Insert the FlashPath adapter and run "savezip" to create a ZIP file on the Smart Media card.
 
 ## Common Problems
