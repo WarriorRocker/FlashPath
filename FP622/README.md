@@ -1,7 +1,7 @@
-# FlashPath Bootdisk
-For MS-DOS 6.22, Windows 3.11, Windows 95  
-  
-Boot a PC with no hard drive or CD-ROM to Windows 95 or lower with only a floppy disk drive and FlashPath adapter.
+**Experimental and pre-release info below**
+
+# FlashPath DOS 6.22 Bootdisk
+Boot a PC with no hard drive to DOS 6.22 with only a floppy disk drive and FlashPath adapter.
 
 ## How it works
 1. The PC is booted from an actual floppy disk to a compatible version of DOS for the targeted version of Windows. 
