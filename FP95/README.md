@@ -1,4 +1,4 @@
-# FlashPath Windows 95 Bootdisk
+# FlashPath Windows 95 BootDisk
 Boot a PC with no hard drive or CD-ROM to Windows 95 with only a floppy disk drive and FlashPath adapter.
 
 ## Theory of Operation
@@ -24,8 +24,3 @@ Boot a PC with no hard drive or CD-ROM to Windows 95 with only a floppy disk dri
 - FlashPath adapter with 32MB Smart Media card.
 - Boot Disk written with the [FP95.IMA](FP95/FP95.IMA) image.
 - Installation media for [Windows 95 RTM](https://winworldpc.com/product/windows-95/rtm).
-
-## References
-- [Cathode Ray Dude](https://www.youtube.com/@CathodeRayDude) - https://www.youtube.com/watch?v=5g3afPmSnbY&t=2438s
-- [Bits und Bolts](https://www.youtube.com/@bitsundbolts) - https://youtu.be/NGaNRgsNahM?t=350s
-- [Tech Tangents](https://www.youtube.com/@techtangents) - https://www.youtube.com/watch?v=UxsRpMdmlGo
