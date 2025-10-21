@@ -21,6 +21,13 @@ Boot a PC with no hard drive or CD-ROM to Windows 95 with only a floppy disk dri
    - `fp win` - Start Windows from compressed volume.
 
 ## Requirements
+- PC with 386 processor or higher and at least 48MB of RAM.
 - FlashPath adapter with 32MB Smart Media card.
 - Boot Disk written with the [FP95.IMA](FP95/FP95.IMA) image.
 - Installation media for [Windows 95 RTM](https://winworldpc.com/product/windows-95/rtm).
+
+## Common Issues
+- **Error SU991016 when Preparing Directory** - The setup was launched without using either `fp setup cd` or `fp setup disk`. The [FP.BAT](FP95/DISK/FP.BAT) script uses [SUBST.EXE](FP95/DISK/SUBST.EXE) to alias `C:` to the mounted DriveSpace volume `X:`.
+- **Error SU992010 after Copying Files** - This is a good error, click `OK`.
+- **Cannot find device file `C:\DRVSPACE.BIN` when starting windows** - Ignore this error by pressing any key.
+- **Registry Error** - Windows was launched without using `fp win`. The [FP.BAT](FP95/DISK/FP.BAT) script uses [SETMDIR.EXE](FP95/DISK/SETMDIR.EXE) to set the Windows Registry location to `X:\WINDOWS`.
