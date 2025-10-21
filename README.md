@@ -15,8 +15,8 @@ The PC must be booted using a compatible disk image for the targeted operating s
 ### [Windows 95](FP95/README.md) - Stable
 This release is stable and supports a repeatable environment for installing and booting Windows using the FlashPath adapter for persistent storage.
 - Install Windows from floppy disks or CD-ROM.
-- Booting Windows from a DriveSpace compressed volume mounted from a RAM drive.
-- Saving and loading a DriveSpace compressed volume to/from the FlashPath adapter.
+- Boot Windows from a DriveSpace compressed volume mounted from a RAM drive.
+- Save and load a DriveSpace compressed volume to/from the FlashPath adapter.
 
 ### [DOS 6.22](FP622/README.md) - Experimental
 This release is experimental.
